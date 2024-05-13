@@ -1,0 +1,7 @@
+<table>
+<tr>
+	<td>‚ ‚È‚½‚Í</td>
+	<td>!count!</td>
+	<td>”Ô–Ú‚Ì–K–âÒ‚Å‚·B</td>
+</tr>
+</table>

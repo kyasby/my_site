@@ -1,0 +1,8 @@
+<h3 style="color:#dd0000">おめでとうございます。キリ番ゲットです!</h3>
+<table>
+<tr>
+  <td>あなたは</td>
+  <td>!count!</td>
+  <td>番目の訪問者です。</td>
+</tr>
+</table>

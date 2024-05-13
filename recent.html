@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>堀涼の趣味の部屋</title>
+  </head>
+  <style type="text/css">
+body{ background-image: url(white_takayama.png);
+  background-size: 30%;}
+        footer{text-align: center;}
+        iframe{width: 100%}
+        #content{height: 300px;
+          width: 100%;}
+  .example4{
+    height: 80px;
+    animation: 5s example4 linear infinite;
+  }
+  @keyframes example4{
+    0%{background: #e60000}
+    14%{background: #f39800}
+    28%{background: #fff100}
+    42%{background: #009944}
+    56%{background: #0068b7}
+    70%{background: #1d2088}
+    85%{background: #920783}
+    100%{background: #e60000}
+  }
+  </style>
+  <body oncontextmenu="alert('右クリックは禁止です');return false">
+    <center>
+      <table class="example4" border="6" bordercolor="red" width="500">
+        <tr>
+          <td>
+            <marquee>
+            <font size="14" color="white"><b>最近の出来事へようこそ
+                <img height="50" src="me_icon.png">
+              </b></font>
+            </marquee>
+          </td>
+        </tr>
+      </table>
+      <button onclick=location.href='index.html'>トップ</button>
+      <button onclick=location.href='recent.html'>最近の出来事</button>
+      <button onclick=location.href='tmi.html'>TMI</button>
+      <button onclick=location.href='link.html'>リンク集</button>
+    </center>
+
+    <h2>★研究（室）★</h2>
+    <iframe id="content" src="lab.html"></iframe>
+    <h2>★ぷらいべーと★</h2>
+    <iframe id="content" src="private.html"></iframe>
+    <h2>★最近の趣味★</h2>
+    <iframe id="content" src="favorite.html"></iframe>
+
+    <iframe src="footer.html" frameborder="0"></iframe>
+  </body>
+</html>
+
